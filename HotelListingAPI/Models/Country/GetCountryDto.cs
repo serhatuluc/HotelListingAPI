@@ -9,6 +9,6 @@
     public class GetCountryDetailsDto:BaseCountryDto
     {
         public int Id { get; set; }
-        public List<GetHotelDto> Hotels { get; set; }
+        public List<HotelDto> Hotels { get; set; }
     }
 }
